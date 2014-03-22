@@ -6,7 +6,7 @@
 	
 	hash文件夹中存放的是用于生存哈希值的go文件，提供了MD5和SHA1两种算法,appkey.go是接口文件
 
-    	type IAppkey interface {
+    	type IAppkey interfac1e {
 	    GenerateAppKey(...string) string
 	    }
 
